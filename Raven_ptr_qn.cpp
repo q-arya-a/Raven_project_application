@@ -64,16 +64,4 @@ class my_unique_ptr{
         }
 
 };
-#include <iostream>
-// Test class
-class Test {
-public:
-    void show() {
-        std::cout << "Test::show() called!" <<std::endl;
-    }
-
-    ~Test() {
-        std::cout << "Test object destroyed!" << std::endl;
-    }
-};
 
